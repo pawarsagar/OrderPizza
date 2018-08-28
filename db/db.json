@@ -1,0 +1,314 @@
+{
+"matches": [
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/ZcXFO_atzU1Y4mxfBlfzw0eypgCy4aqO0dx6j6iCLW_vKII4Sk9Mic7tUox5RY-20lrd14iDwXNOXKPkfVtm=s90-c"
+},
+"sourceDisplayName": "Spoon Fork Bacon",
+"ingredients": [
+"extra-virgin olive oil",
+"small new potatoes",
+"green bell peppers",
+"red bell peppers",
+"thyme",
+"cooked bacon",
+"part skim shredded mozzarella",
+"large eggs",
+"pizza dough",
+"salt",
+"pepper",
+"chives"
+],
+"id": "Breakfast-Pizza-1708929",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/r3NCe1wFV0NxZH8bcfhSgdnLwxXT6tk7SoLVd95l-ZOg5X333ieF24LrD05UQqsmkuaQGqIgvGTwYt9TVHZX=s90"
+],
+"recipeName": "Breakfast Pizza",
+"totalTimeInSeconds": 3000,
+"attributes": {
+"course": [
+"Main Dishes",
+"Breakfast and Brunch"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/gmgvlqs8L-Wd59Kbi3-M7Nn5ZYPN26KHH07hToz0txbsueOitau6MLJxlVvatjJOeWxSphppLsGB1_YCgnCa=s90-c"
+},
+"sourceDisplayName": "Eat Simple Food",
+"ingredients": [
+"pizza dough",
+"olive oil",
+"tomato sauce",
+"mozzarella cheese",
+"capers",
+"pepperoncini",
+"basil chiffonade"
+],
+"id": "Pizza-Pizza_-1390216",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/kE5PEMk6X848sOqiWeZOMIoh1ksgaCoa8iS91fMEi6eE2HvIUNOhQL1LkmaXSBUxQSzjiHwlOFB5IAbd71i-7w=s90"
+],
+"recipeName": "Pizza Pizza!",
+"totalTimeInSeconds": 1800,
+"attributes": {
+"course": [
+"Lunch",
+"Main Dishes"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/xGxFlyxVqHUtjlxeN97MMJeQ_vBtWVTfUL37tnB3vhXBoFplRDT52WkhVBdC2bPhml09VjRnCTGUjDZxmE6y=s90-c"
+},
+"sourceDisplayName": "The Kitchn",
+"ingredients": [
+"pizza dough",
+"tomatoes",
+"garlic",
+"basil",
+"mozzarella cheese",
+"salt",
+"pepper"
+],
+"id": "Classic-Margherita-PIzza-2319496",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/MPwrWk1w7Vr26HVB0Ky0WXbnHrDct5IYA8V5P10IhXt8BX8BcjHl2Wp7O6BSro-AlmLwaBTPkc6vNch8IcpxQg=s90"
+],
+"recipeName": "Classic Margherita PIzza",
+"totalTimeInSeconds": 1500,
+"attributes": {
+"course": [
+"Main Dishes",
+"Lunch"
+]
+},
+"flavors": {
+"piquant": 0.0,
+"meaty": 0.16666666666666666,
+"bitter": 0.16666666666666666,
+"sweet": 0.16666666666666666,
+"sour": 0.3333333333333333,
+"salty": 0.6666666666666666
+},
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/u8c7UWCLj9_DpTYwRwc-Z6pmoswq7tZ6NAb2fB29iFHwJ49XodwuTFWdG5ib-THGZhisdxdHZK0p7HxJsnzO1eE=s90-c"
+},
+"sourceDisplayName": "Damn Delicious",
+"ingredients": [
+"flour tortillas",
+"pizza sauce",
+"shredded mozzarella cheese",
+"freshly grated parmesan",
+"pepperonis"
+],
+"id": "Mini-Deep-Dish-Pizzas-2258679",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/Nihm_pIAyNaH-UUVBCe-RjmQiZjmE0Nz2mUO11BtHySt281QHVQZv-oGwUcA2jY1KUtvjX8cdUUC_Z701_hxGGM=s90"
+],
+"recipeName": "Mini Deep Dish Pizzas",
+"totalTimeInSeconds": 1500,
+"attributes": {
+"course": [
+"Lunch"
+],
+"cuisine": [
+"Kid-Friendly"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/ZYPv3vpwvoSCaoBcmg3BLafFHfchWkKMllUWlONPT-8VjivRFFtGGICfrqpM6I4J4Zm0_It1Orr5U7WMhDSsAQ=s90-c"
+},
+"sourceDisplayName": "Bake Eat Repeat",
+"ingredients": [
+"pizza dough",
+"olive oil",
+"garlic salt",
+"pesto",
+"shredded mozzarella cheese",
+"shredded parmesan cheese",
+"tomato",
+"balsamic glaze"
+],
+"id": "Caprese-Pizza-1448674",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/TDkSdkiCKz-noC2Q92_W6T7_1Qw7B_T6uxV6QuxBJI7n_-KXbbuaxKrpESfEaNuuIP7WvQIEjVkdIQQNPMmRvw=s90"
+],
+"recipeName": "Caprese Pizza",
+"totalTimeInSeconds": 1500,
+"attributes": {
+"course": [
+"Main Dishes"
+],
+"cuisine": [
+"Kid-Friendly"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/pI7xygPhAXcPKZ6Cjz7_EVGzyK7CeZKqfcXxmZrEKTlAFs9xof9dYZ0kOkMC1u89eQ_6gotB0I80MNAZ_Qsz1w=s90-c"
+},
+"sourceDisplayName": "Leite's Culinaria",
+"ingredients": [
+"applewood smoked bacon",
+"pizza dough",
+"crème fraîche",
+"caramelized onions",
+"large eggs",
+"mozzarella cheese"
+],
+"id": "Breakfast-Pizza-2213050",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/UaCAo4pUqP-PnXbstVFF3rdYFoFIM8rH41BZYFVRialL52j0QCJQkq-aGXS7BOdy7LNFOpRRNiEZecViUxHurQ=s90"
+],
+"recipeName": "Breakfast Pizza",
+"totalTimeInSeconds": 4800,
+"attributes": {
+"course": [
+"Breakfast and Brunch"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/0PJPJkP6g0flmHVBlXbUi3dVStLXaH45t2s9Wx4lQRe0agltD0LT__erxtDIixWnK1vgdz0wtR2bIyUf58mS=s90-c"
+},
+"sourceDisplayName": "Pillsbury.com",
+"ingredients": [
+"breadsticks",
+"italian style meatballs",
+"pizza sauce",
+"pepperoni",
+"grated parmesan cheese",
+"pizza cheese"
+],
+"id": "Bubble-Pizza-2082798",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/ntVoOUdGG4E6EO-DfchGf57Ke4ZM0MAd-2stvNBHQLwoEky6fyl485ZQFn1EcWcNpluXabNyFPpdbdmUcD2-3Us=s90"
+],
+"recipeName": "Bubble Pizza",
+"totalTimeInSeconds": 3000,
+"attributes": {
+"course": [
+"Main Dishes"
+],
+"cuisine": [
+"Kid-Friendly"
+]
+},
+"flavors": {
+"piquant": 0.0,
+"meaty": 0.8333333333333334,
+"bitter": 0.8333333333333334,
+"sweet": 0.16666666666666666,
+"sour": 0.16666666666666666,
+"salty": 0.8333333333333334
+},
+"rating": 3
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/pHL3fblgavZQWtTaSY0G_uCkaI_NYnNBPuko-KV8Pfn0UMgxLBxXRdcOITQd5EL0YkhFYS9bVku1dHLC2jnhVA=s90-c"
+},
+"sourceDisplayName": "Jaque's Kitchen",
+"ingredients": [
+"naan",
+"olive oil",
+"pizza sauce",
+"mozzarella cheese",
+"pepperoni slices",
+"olives"
+],
+"id": "Naan-Pizza-1601315",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/Cf438g4Mrkk-qWNWbM93uJOdVS4UzX5pJD0f18-kibbJlUwKlXJtO9MwDP6LRWpxxQfUBkqQmPEnm92ESpdglU4=s90"
+],
+"recipeName": "Naan Pizza",
+"totalTimeInSeconds": 1800,
+"attributes": {
+"course": [
+"Lunch",
+"Main Dishes"
+]
+},
+"flavors": null,
+"rating": 4
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/pNBPeaqxAfjOXb3pizAPKuhXYDsvd35fUJ0mz9wGX5ob6OJdWhTEG77UDWKLOBfx-lt1R-xuJbjU3RaRDOmrlQ=s90-c"
+},
+"sourceDisplayName": "BigOven",
+"ingredients": [
+"flour",
+"salt",
+"yeast",
+"olive oil",
+"lukewarm water",
+"pizza sauce",
+"mozzerella cheese",
+"pepperoni"
+],
+"id": "Awesome-Pepperoni-Pizza-1873784",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/UfzLfk9ugfdHhepQcvY30yBVA-070xMFYM-e72JZXdN2e2bP827PHte_9FatjPYqQl8-GO2wSFu0GkFtchoqocM=s90"
+],
+"recipeName": "Awesome Pepperoni Pizza",
+"totalTimeInSeconds": 2700,
+"attributes": {
+"course": [
+"Main Dishes"
+]
+},
+"flavors": null,
+"rating": 3
+},
+{
+"imageUrlsBySize": {
+"90": "https://lh3.googleusercontent.com/QiLFifmQZ1OgFcTKXACaNVZ_yKFPsMmxwhzCI3Kj36td1EX0KlbyATmAscXKr7ImbivUabG5x7qnRMi2d8RF=s90-c"
+},
+"sourceDisplayName": "Jo Cooks",
+"ingredients": [
+"pizza dough",
+"tomatoes",
+"mozzarella cheese",
+"olive oil",
+"garlic",
+"fresh basil",
+"pepper"
+],
+"id": "Margherita-Pizza-2411022",
+"smallImageUrls": [
+"https://lh3.googleusercontent.com/IUlpTtMQ7ymWmGIjgkHWPctPMkR0gwZ7K8umXRS0tng3hK1btLqCPJprNotV594o3kb0R4VxmzDPGqVCsaS_Rg=s90"
+],
+"recipeName": "Margherita Pizza",
+"totalTimeInSeconds": 1800,
+"attributes": {
+"course": [
+"Main Dishes",
+"Lunch"
+]
+},
+"flavors": null,
+"rating": 4
+}
+]
+}
