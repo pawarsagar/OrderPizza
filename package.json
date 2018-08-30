@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config.js",
-    "build": "webpack"
+    "build": "webpack",
+    "json-start":"json-server --watch ./db/db.json"
   },
   "author": "",
   "license": "ISC",
