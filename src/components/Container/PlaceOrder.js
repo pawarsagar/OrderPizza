@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import CounterInput from 'react-bootstrap-counter';
-import CardFooter from 'react-simple-card'
-
+import CardFooter from 'react-simple-card';
+import { Link } from 'react-router-dom';
+import AddedToCart from '../AddedToCart';
+import Popup from "reactjs-popup";
+import axios from 'axios'
 export default class PlaceOrder extends React.Component {
     constructor(props) {
         super(props)
@@ -25,7 +28,7 @@ export default class PlaceOrder extends React.Component {
 
         }
         this.handleChange = this.handleChange.bind(this);
-        this.submit=this.submit.bind(this);
+        this.submit = this.submit.bind(this);
     }
 
 
@@ -48,42 +51,65 @@ export default class PlaceOrder extends React.Component {
 
     }
 
-    submit(){
-        
-         var data=JSON.stringify(this.state);
-     fetch('http://localhost:3000/orders', {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: data
-      })
+    submit() {
+
+        var count = 1;
+        var data = this.state;
+        /*        console.log(data)
+           fetch('http://localhost:3000/orders', {
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+              },
+              body:JSON.stringify(data)
+              
+            })
+            .catch((err)=>{
+                console.log(errs)
+            })
+            console.log("submit is done")
+          /*   return <Link to="/CartList">
+                  
+            <span className='glyphicon glyphicon-shopping-cart btn btn-info btn-lg col-sm-12'>CartList</span>
+          </Link> */
+
+        axios.post(`http://localhost:3000/orders/`, data)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        count = count + 1;
     }
 
     render() {
 
         return (
-            <form className="form-horizontal" role="form">
+            <form className="form-horizontal" role="form" onSubmit={this.submit}>
                 <h5>Press Esc or Click anywhere to exit from this window</h5>
 
                 <div className="panel-group">
                     <div className="panel panel-info">
                         <div className="panel-heading">Order Details</div>
-                        <div className="panel-body">
-                            <div className=" form-group" >
-                                <label className="col-sm-8 control-label" style={{ textAlign: "left" }}><span>{`Your Ordered Pizza  : ${this.state.name}`}</span></label>
+                        <div className="panel-body" >
+                            <div className=" form-group " >
+                                <div className="col-sm-4">
+                                    <label className=" control-label" style={{ textAlign: "left" }}><span>{`Your Ordered Pizza  : ${this.state.name}`}</span></label>
+                                </div>
+                                <div className="col-sm-4">
+                                    <label className=" control-label" >Quantity</label>
+                                </div>
+                                <div className="col-sm-4">
+                                    <CounterInput max={40} value={1} min={1} onChange={(value) => {
+                                        this.setState({
+                                            qty: value,
+                                            finalAmount: this.state.price * value
+                                        })
 
-                                <label className="col-sm-2 control-label" >Quantity</label>
 
-                                <CounterInput max={40} value={1} min={1} onChange={(value) => {
-                                    this.setState({
-                                        qty: value,
-                                        finalAmount: this.state.price * value
-                                    })
-
-
-                                }} />
+                                    }} /></div>
 
 
                             </div>
@@ -119,7 +145,7 @@ export default class PlaceOrder extends React.Component {
                             <label htmlFor="Address" className="col-sm-2 control-label">Address</label>
 
                             <div className="col-sm-10">
-                                <textarea type="text" className="form-control" id="Address" placeholder="Address" rows="3" onChange={this.handleChange} />
+                                <textarea type="text" className="form-control" id="Address" placeholder="Address" onChange={this.handleChange} />
                             </div>
                         </div>
 
@@ -155,7 +181,11 @@ export default class PlaceOrder extends React.Component {
                         </div>
                         <div className="form-group">
                             <div className=" col-sm-12" style={{ textAlign: "center" }}  >
-                                <button type="submit" className="btn btn-primary" onClick={this.submit} >Confirm Order</button>
+
+                                
+                                <Popup trigger={<span> <button type="Submit" className="btn btn-primary" >Confirm Order</button> </span>} position="right center" modal closeOnDocumentClick>
+                                    <AddedToCart />
+                                </Popup>
                             </div>
                         </div>
                     </div>

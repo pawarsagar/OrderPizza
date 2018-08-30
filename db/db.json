@@ -332,47 +332,24 @@
     }
   ],
   "orders": [
-    
     {
       "qty": 2,
-      "id": "Bubble-Pizza-2082798",
-      "name": "Bubble Pizza",
+      "id": "Awesome-Pepperoni-Pizza-1873784",
+      "name": "Awesome Pepperoni Pizza",
       "course": [
         "Main Dishes"
       ],
       "image": [
-        "https://lh3.googleusercontent.com/ntVoOUdGG4E6EO-DfchGf57Ke4ZM0MAd-2stvNBHQLwoEky6fyl485ZQFn1EcWcNpluXabNyFPpdbdmUcD2-3Us=s90"
+        "https://lh3.googleusercontent.com/UfzLfk9ugfdHhepQcvY30yBVA-070xMFYM-e72JZXdN2e2bP827PHte_9FatjPYqQl8-GO2wSFu0GkFtchoqocM=s90"
       ],
-      "coupon": "BUBBPIZZ500",
-      "price": "500",
-      "finalAmount": 750,
+      "coupon": "AWEPEPPIZZ190",
+      "price": "190",
+      "finalAmount": 285,
       "userCoupon": null,
       "firstname": "Sagar",
       "lastname": "Pawar",
-      "Address": "C/5a vraj vihar appt b/h bandhan vidhya gauri society cadila road Ghodasar",
-      "landmark": "Gujarāt"
+      "Address": "maninagar",
+      "landmark": "avkar Hall"
     }
-  ],
-  "cart":{
-    
-      "qty": 1,
-      "id": "Breakfast-Pizza-1708929",
-      "name": "Breakfast Pizza",
-      "course": [
-        "Main Dishes",
-        "Breakfast and Brunch"
-      ],
-      "image": [
-        "https://lh3.googleusercontent.com/r3NCe1wFV0NxZH8bcfhSgdnLwxXT6tk7SoLVd95l-ZOg5X333ieF24LrD05UQqsmkuaQGqIgvGTwYt9TVHZX=s90"
-      ],
-      "coupon": "BFPIZ450",
-      "price": "450",
-      "finalAmount": "450",
-      "userCoupon": null,
-      "firstname": null,
-      "lastname": null,
-      "Address": null,
-      "landmark": null
-    }
-  
+  ]
 }
