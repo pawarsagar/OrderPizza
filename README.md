@@ -45,4 +45,19 @@ npm i json-server
 ```
 
 
+### Use this Coupon code for a discount
+```
+Breakfast Pizza:- BFPIZ450
+Pizza Pizza!:- PIZPIZ675
+Classic Margherita Pizza:- CMPIZ650
+Mini Deep Dish Pizzas :-  MINDEEPIZZ150
+Caprese Pizza:- CAPPIZZ225
+Breakfast Pizza:- BFPIZ325
+Bubble Pizza:- BUBBPIZZ500
+Naan Pizza:- NAANPIZZ150
+Awesome Pepperoni Pizza:- AWEPEPPIZZ190
+Margherita Pizza:- MARGPIZZ325
+```
+
+
 ###Have a Happy Coding 
